@@ -5,6 +5,8 @@ In this game, there are two dice. These two dice are rolled simultaneously by th
 Just click on start button and it will start game
 
 Languages Used
+
+
 .HTML
 .CSS
 .Javascript
