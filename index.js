@@ -3,13 +3,13 @@ function gamestart() {
     //This is for random number
     const firstRandomNum = Math.floor(Math.random() * 6) + 1;
     // This will give random image.
-    const firstDiceImage = 'image/dice' + firstRandomNum + '.png';
+    const firstDiceImage = 'img/dice' + firstRandomNum + '.png';
 
     document.querySelectorAll('img')[0].setAttribute('src', firstDiceImage);
     //This is for random number
     const secondRandomNum = Math.floor(Math.random() * 6) + 1;
     // This will give random image.
-    const secondDiceImage = 'image/dice' + secondRandomNum + '.png';
+    const secondDiceImage = 'img/dice' + secondRandomNum + '.png';
 
     document.querySelectorAll('img')[1].setAttribute('src', secondDiceImage);
 
